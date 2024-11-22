@@ -1,0 +1,17 @@
+/* Настройка темы Material */
+body {
+  margin: 0;
+  background-color: #000000;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
