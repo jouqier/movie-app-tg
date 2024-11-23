@@ -1,6 +1,5 @@
 import './theme.css';
-import '@material/web/button/filled-tonal-button.js';
-import '@material/web/checkbox/checkbox.js';
+import '@material/web/all.js';
 import './components/MovieCard.js';
 import './components/MovieInfo.js';
 import './components/MoviePoster.js';

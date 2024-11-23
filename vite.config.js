@@ -4,9 +4,10 @@ export default {
   build: {
     outDir: '../dist',
     rollupOptions: {
-      output: {
-        manualChunks: undefined
-      }
+      external: [
+        '@material/web/button/filled-tonal-button.js',
+        '@material/web/checkbox/checkbox.js'
+      ]
     }
   },
   server: {
