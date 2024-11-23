@@ -1,5 +1,4 @@
 import './theme.css';
-import '@material/web/all.js';
 import './components/MovieCard.js';
 import './components/MovieInfo.js';
 import './components/MoviePoster.js';
