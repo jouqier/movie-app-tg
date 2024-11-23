@@ -11,9 +11,8 @@ import './components/MoviesScreen.js';
 import './components/TVShowsScreen.js';
 import TMDBService from './services/tmdb.js';
 
-// Дожидаемся загрузки DOM
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('App initializing...'); // Для отладки
+    console.log('App initializing...');
     
     const container = document.querySelector('#movies-container');
     if (!container) {
@@ -21,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Создаем и показываем начальный экран
     try {
         const searchScreen = document.createElement('search-screen');
         container.appendChild(searchScreen);
